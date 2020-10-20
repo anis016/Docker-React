@@ -1,3 +1,7 @@
+# Docker React App
+
+https://travis-ci.org/anis016/Docker-React.svg?branch=master
+
 ## Run Start (Development)
 
 `npm run start` Starts up a development server. This is used for Development only.
