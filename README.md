@@ -17,7 +17,10 @@ $ docker run -it -p 3000:3000 -v /app/node_modules -v $(pwd):/app anis016/fronte
 ```
 # build: docker-compose.yml
 $ docker-compose up
-// If need to check the details of the tests then associate to the tests container
+// If need to check the details of the tests and to use interactivity then use "-it" 
+$ docker container run -it frontend_tests npm run test
+// To check the coverage use the --coverage
+$ docker container run frontend_tests npm run test -- --coverage
 ```
 
 
