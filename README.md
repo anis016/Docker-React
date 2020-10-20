@@ -1,6 +1,6 @@
 # Docker React App
 
-https://travis-ci.org/anis016/Docker-React.svg?branch=master
+[![Build Status](https://travis-ci.org/anis016/Docker-React.svg?branch=master)](https://travis-ci.org/anis016/Docker-React)
 
 ## Run Start (Development)
 
